@@ -157,11 +157,6 @@ h4.result-detail-title,
     overflow: visible;
     text-overflow: unset;
   }
-
-  .col-md-10 {
-    max-width: 100% !important;
-    flex: 0 0 100% !important;
-  }
 }
 
 /* ==== Logo-Bild responsive machen ==== */
