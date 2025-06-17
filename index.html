@@ -289,40 +289,32 @@
 
 	<div id="result" class="container">
 
-		<h4 id="title-results">title-results</h4>
-	
-  <div class="row result-summary-row">
-    <div class="col-12">
-      <div class="row">
-        <div class="col-12 col-md-10">
-          <!-- Zusammenfassung (Klick-Trigger) -->
-          <div class="card feature-summary-card">
-            <div class="card-body" data-toggle="collapse" data-target="#feature-detail-1" aria-expanded="false" aria-controls="feature-detail-1" style="cursor:pointer;">
-              <h5 class="card-title" id="title-results-summary">Titel der Zusammenfassung</h5>
-              <p id="result-summary">Hier steht die Zusammenfassung...</p>
-            </div>
-          </div>
+  <h4 id="title-results">title-results</h4>
 
-          <!-- Ausklappbarer Bereich direkt darunter -->
-          <div id="feature-detail-1" class="collapse mt-3">
-            <div class="card feature-detail-card">
-              <div class="card-body">
-                <h6>Detailinformationen</h6>
-                <p>Dies ist der Inhalt der neuen Feature-Karte.</p>
+  <!-- Neue Feature-Karte -->
+  <div class="row result-feature-row mb-3">
+    <div class="col-12 col-md-10 offset-md-1">
 
-                <!-- Kommentar-Anzeige (nur lesbar) -->
-                <div class="form-group mt-3">
-                  <label for="staticComment">Kommentar:</label>
-                  <div id="staticComment" class="form-control-plaintext">
-                    Dies ist ein statischer Kommentartext, der nicht bearbeitet werden kann.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
+      <!-- Zusammenfassung -->
+      <div class="card feature-summary" data-toggle="collapse" data-target="#feature-collapse-1" aria-expanded="false" aria-controls="feature-collapse-1" style="cursor:pointer;">
+        <div class="card-body">
+          <h5 class="card-title">Partei XYZ</h5>
+          <p>Kurze Zusammenfassung dieses Ergebnisses...</p>
         </div>
       </div>
+
+      <!-- Ausklappbarer Inhalt -->
+      <div id="feature-collapse-1" class="collapse">
+        <div class="card feature-detail mt-2">
+          <div class="card-body">
+            <p><strong>Begründung der Partei:</strong></p>
+            <p class="form-control-plaintext">
+              Die Partei begründet ihre Entscheidung wie folgt: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -332,8 +324,6 @@
 
   <h5 id="title-results-details">title-results-details</h5>
 
-  <!-- Ursprünglicher result-detail-Block entfernt, da er nun im Collapse enthalten ist -->
-
   <p class="text-center">
     <small>
       <button class="btn btn-sm btn-light" id="btn-results-show-start">btn-results-show-start</button>
@@ -341,6 +331,7 @@
     </small>
   </p>
 </div>
+
 
 	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
