@@ -291,30 +291,27 @@
 
   <h4 id="title-results">title-results</h4>
 
-  <!-- Neue Feature-Karte -->
-  <div class="row result-feature-row mb-3">
-    <div class="col-12 col-md-10 offset-md-1">
-
-      <!-- Zusammenfassung -->
-      <div class="card feature-summary" data-toggle="collapse" data-target="#feature-collapse-1" aria-expanded="false" aria-controls="feature-collapse-1" style="cursor:pointer;">
+  <div class="row result-summary-row mb-3">
+    <!-- Hauptinhalt: clickable Element -->
+    <div class="col-12 col-md-10 offset-md-1" data-toggle="collapse" data-target="#feature-collapse-1" aria-expanded="false" aria-controls="feature-collapse-1" style="cursor:pointer;">
+      <div class="card feature-summary">
         <div class="card-body">
           <h5 class="card-title">Partei XYZ</h5>
           <p>Kurze Zusammenfassung dieses Ergebnisses...</p>
         </div>
       </div>
+    </div>
 
-      <!-- Ausklappbarer Inhalt -->
-      <div id="feature-collapse-1" class="collapse">
-        <div class="card feature-detail mt-2">
-          <div class="card-body">
-            <p><strong>Begründung der Partei:</strong></p>
-            <p class="form-control-plaintext">
-              Die Partei begründet ihre Entscheidung wie folgt: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
+    <!-- Ausklappbarer Inhalt am Ende der row -->
+    <div class="col-12 collapse mt-2" id="feature-collapse-1">
+      <div class="card feature-detail">
+        <div class="card-body">
+          <p><strong>Begründung der Partei:</strong></p>
+          <p class="form-control-plaintext">
+            Die Partei begründet ihre Entscheidung wie folgt: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
         </div>
       </div>
-
     </div>
   </div>
 
