@@ -1,23 +1,23 @@
 /* ==== Hintergrundfarbe der Seite ==== */
 body {
-  background-color: #ffffff;
+  background-color: #FBF1E8;
 }
 
 /* ==== Start-Button (mit id) ==== */
 #btn-start {
-  background-color: #B77980 !important;
+  background-color: #AA4E36 !important;
   color: #fff !important;
   border: 2px solid #fff !important;
 }
 #btn-start:hover,
 #btn-start:focus {
-  background-color: #a5656d !important;
-  box-shadow: 0 0 0 0.25rem rgba(183, 121, 128, 0.4);
+  background-color: #943e28 !important;
+  box-shadow: 0 0 0 0.25rem rgba(170, 78, 54, 0.4);
 }
 
 /* ==== Fortschrittsbalken ==== */
 .progress-bar {
-  background-color: #559E71 !important;
+  background-color: #03045E !important;
 }
 
 /* ==== Zustimmung (Bootstrap: success) ==== */
@@ -38,28 +38,28 @@ body {
 .btn-warning,
 .bg-warning,
 .alert-warning {
-  background-color: #D2E3C1 !important;
+  background-color: #F2F1B5 !important;
   color: #212529 !important;
   border: 2px solid #fff !important;
 }
 .btn-warning:hover,
 .btn-warning:focus {
-  background-color: #c3d5b2 !important;
-  box-shadow: 0 0 0 0.25rem rgba(210, 227, 193, 0.4);
+  background-color: #e0dfa7 !important;
+  box-shadow: 0 0 0 0.25rem rgba(242, 241, 181, 0.4);
 }
 
 /* ==== Ablehnung (Bootstrap: danger) ==== */
 .btn-danger,
 .bg-danger,
 .alert-danger {
-  background-color: #B77980 !important;
+  background-color: #AA4E36 !important;
   color: #fff !important;
   border: 2px solid #fff !important;
 }
 .btn-danger:hover,
 .btn-danger:focus {
-  background-color: #a5656d !important;
-  box-shadow: 0 0 0 0.25rem rgba(183, 121, 128, 0.4);
+  background-color: #943e28 !important;
+  box-shadow: 0 0 0 0.25rem rgba(170, 78, 54, 0.4);
 }
 
 /* ==== Doppelte Gewichtung ==== */
@@ -76,11 +76,11 @@ body {
   color: #fff !important;
 }
 .result-neutral {
-  background-color: #D2E3C1 !important;
+  background-color: #F2F1B5 !important;
   color: #212529 !important;
 }
 .result-decline {
-  background-color: #B77980 !important;
+  background-color: #AA4E36 !important;
   color: #fff !important;
 }
 .result-double-weighted {
@@ -92,7 +92,7 @@ body {
 /* ==== Box hinter dem Logo (.jumbotron) ==== */
 .jumbotron {
   background-color: transparent !important;
-  border: 5px solid #559E71 !important;
+  border: 5px solid #36558F !important;
 }
 
 /* ==== Badges für Bewertung (HTML Klassen direkt) ==== */
@@ -102,12 +102,12 @@ body {
 }
 
 .badge.badge-warning {
-  background-color: #D2E3C1 !important;
+  background-color: #F2F1B5 !important;
   color: #212529 !important;
 }
 
 .badge.badge-danger {
-  background-color: #B77980 !important;
+  background-color: #AA4E36 !important;
   color: #fff !important;
 }
 
@@ -115,7 +115,55 @@ body {
 .btn-info,
 .bg-info,
 .result-detail-footer.bg-info {
-  background-color: #B77925 !important;
+  background-color: #D7721E !important;
   color: #fff !important;
   border: 2px solid #fff !important;
+}
+
+/* ==== Ergebnisdarstellung: Balkenfarbe für "restliche" Punkte ==== */
+.remaining-progress-bar {
+  background-color: rgba(0, 0, 0, 0.03) !important;
+}
+
+/* ==== Entferne "Ergebnis"-Überschrift (h4) ==== */
+h4.result-detail-title,
+.result-detail-title {
+  display: none !important;
+}
+
+/* ==== Ergebnis: Text über Progressbar anordnen ==== */
+.col-12.col-md,
+.col-12.col-md-10 {
+  display: block;
+  max-width: 100%;
+}
+
+/* ==== Keine Zeilenumbrüche in card-body ==== */
+.card-body {
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ==== Ergebnis: Balkenfarbe in Ergebniskarten ==== */
+.progress-bar.main.progress-bar {
+  background-color: #03045E !important;
+}
+
+/* ==== Mobile: Zeilenumbruch in card-body wieder aktivieren ==== */
+@media (max-width: 768px) {
+  .card-body {
+    white-space: normal !important;
+    overflow: visible;
+    text-overflow: unset;
+  }
+}
+
+/* ==== Logo-Bild responsive machen ==== */
+.display-4.text-center.col-auto img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 } 
