@@ -1,0 +1,121 @@
+/* ==== Hintergrundfarbe der Seite ==== */
+body {
+  background-color: #ffffff;
+}
+
+/* ==== Start-Button (mit id) ==== */
+#btn-start {
+  background-color: #B77980 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+#btn-start:hover,
+#btn-start:focus {
+  background-color: #a5656d !important;
+  box-shadow: 0 0 0 0.25rem rgba(183, 121, 128, 0.4);
+}
+
+/* ==== Fortschrittsbalken ==== */
+.progress-bar {
+  background-color: #559E71 !important;
+}
+
+/* ==== Zustimmung (Bootstrap: success) ==== */
+.btn-success,
+.bg-success,
+.alert-success {
+  background-color: #559E71 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #417a58 !important;
+  box-shadow: 0 0 0 0.25rem rgba(85, 158, 113, 0.4);
+}
+
+/* ==== Neutral (Bootstrap: warning) ==== */
+.btn-warning,
+.bg-warning,
+.alert-warning {
+  background-color: #D2E3C1 !important;
+  color: #212529 !important;
+  border: 2px solid #fff !important;
+}
+.btn-warning:hover,
+.btn-warning:focus {
+  background-color: #c3d5b2 !important;
+  box-shadow: 0 0 0 0.25rem rgba(210, 227, 193, 0.4);
+}
+
+/* ==== Ablehnung (Bootstrap: danger) ==== */
+.btn-danger,
+.bg-danger,
+.alert-danger {
+  background-color: #B77980 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: #a5656d !important;
+  box-shadow: 0 0 0 0.25rem rgba(183, 121, 128, 0.4);
+}
+
+/* ==== Doppelte Gewichtung ==== */
+.double-weighted,
+.double-weighted-badge {
+  background-color: #e6b400 !important;
+  color: #212529 !important;
+  font-weight: bold;
+}
+
+/* ==== Bewertungen in der Auswertung ==== */
+.result-user-choice {
+  background-color: #559E71 !important;
+  color: #fff !important;
+}
+.result-neutral {
+  background-color: #D2E3C1 !important;
+  color: #212529 !important;
+}
+.result-decline {
+  background-color: #B77980 !important;
+  color: #fff !important;
+}
+.result-double-weighted {
+  background-color: #e6b400 !important;
+  color: #212529 !important;
+  font-weight: bold;
+}
+
+/* ==== Box hinter dem Logo (.jumbotron) ==== */
+.jumbotron {
+  background-color: transparent !important;
+  border: 5px solid #559E71 !important;
+}
+
+/* ==== Badges für Bewertung (HTML Klassen direkt) ==== */
+.badge.badge-success {
+  background-color: #559E71 !important;
+  color: #fff !important;
+}
+
+.badge.badge-warning {
+  background-color: #D2E3C1 !important;
+  color: #212529 !important;
+}
+
+.badge.badge-danger {
+  background-color: #B77980 !important;
+  color: #fff !important;
+}
+
+/* ==== Doppelte Gewichtung: Button und Ergebnisbereich (btn-info, bg-info) ==== */
+.btn-info,
+.bg-info,
+.result-detail-footer.bg-info {
+  background-color: #B77925 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+} 

@@ -1,0 +1,352 @@
+{
+	"theses": {
+		"0": {
+			"l": "Ich lege bei meiner Wohnart einen hohen Wert auf Ungestörtheit.",
+			"s": "Ungestörtheit",
+			"x": ""
+		},
+		"1": {
+			"l": "Ich finde, das Wichtigste beim Wohnen ist mein eigener Rückzugsbereich, beispielsweise mein Bad. ",
+			"s": "Bad",
+			"x": ""
+		},
+		"2": {
+			"l": "Ich kann mir vorstellen, wichtige Lebensbereiche, wie die Küche oder das Bad mit anderen Menschen zu teilen. ",
+			"s": "Bereitschaft zum Teilen",
+			"x": ""
+		},
+		"3": {
+			"l": "Ich bin bereit dazu, gemeinschaftliche Anlagen und Räume freiwillig und kostenlos zu pflegen und zu erhalten.",
+			"s": "Erhaltung der Gemeinschaftsbereiche",
+			"x": ""
+		},
+		"4": {
+			"l": "Für den Alltag brauche ich nicht viel Platz. Habe ich Besuch, nutze ich mit ihm auch Gemeinschaftsbereiche.",
+			"s": "Platzbedürfnis",
+			"x": ""
+		},
+		"5": {
+			"l": "Ich wünsche mir ein Zuhause, das auch Raum für gemeinschaftliche Aktivitäten bietet.",
+			"s": "Gemeinschaftliche Aktivitäten",
+			"x": ""
+		},
+		"6": {
+			"l": "Ich habe Interesse daran, gemeinschaftliche Projekte (z. B. Garten, Werkstatt, Veranstaltungen) mitzugestalten.",
+			"s": "Gestaltungsanspruch",
+			"x": ""
+		},
+		"7": {
+			"l": "Ich möchte nicht mehrfach im Leben umziehen müssen, sondern eine langfristige Lösung finden.",
+			"s": "Langfristige Lösung",
+			"x": ""
+		}
+	},
+	"lists": {
+		"0": {
+			"name": "Mehrgenerationenwohnen",
+			"name_x": "MGWH"
+		},
+		"1": {
+			"name": "Wohnprojekt mit WG-Charakter",
+			"name_x": "WG"
+		},
+		"2": {
+			"name": "Clusterwohnung ",
+			"name_x": "CWHG"
+		},
+		"3": {
+			"name": "Betreutes Wohnen",
+			"name_x": "BW"
+		},
+		"4": {
+			"name": "Seniorenwohnung",
+			"name_x": "SW"
+		},
+		"5": {
+			"name": "Barrierefreie Wohnung",
+			"name_x": "BFWHG"
+		},
+		"6": {
+			"name": "Tiny House",
+			"name_x": "TH"
+		},
+		"7": {
+			"name": "Baugenossenschaft",
+			"name_x": "BAUG"
+		}
+	},
+	"answers": {
+		"0": {
+			"0": {
+				"selection": "b",
+				"statement": ""
+			},
+			"1": {
+				"selection": "b",
+				"statement": ""
+			},
+			"2": {
+				"selection": "b",
+				"statement": ""
+			},
+			"3": {
+				"selection": "a",
+				"statement": ""
+			},
+			"4": {
+				"selection": "b",
+				"statement": ""
+			},
+			"5": {
+				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "a",
+				"statement": ""
+			},
+			"7": {
+				"selection": "a",
+				"statement": ""
+			}
+		},
+		"1": {
+			"0": {
+				"selection": "c",
+				"statement": ""
+			},
+			"1": {
+				"selection": "b",
+				"statement": ""
+			},
+			"2": {
+				"selection": "a",
+				"statement": ""
+			},
+			"3": {
+				"selection": "a",
+				"statement": ""
+			},
+			"4": {
+				"selection": "a",
+				"statement": ""
+			},
+			"5": {
+				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "a",
+				"statement": ""
+			},
+			"7": {
+				"selection": "b",
+				"statement": ""
+			}
+		},
+		"2": {
+			"0": {
+				"selection": "c",
+				"statement": ""
+			},
+			"1": {
+				"selection": "a",
+				"statement": ""
+			},
+			"2": {
+				"selection": "a",
+				"statement": ""
+			},
+			"3": {
+				"selection": "a",
+				"statement": ""
+			},
+			"4": {
+				"selection": "a",
+				"statement": ""
+			},
+			"5": {
+				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "a",
+				"statement": ""
+			},
+			"7": {
+				"selection": "b",
+				"statement": ""
+			}
+		},
+		"3": {
+			"0": {
+				"selection": "b",
+				"statement": ""
+			},
+			"1": {
+				"selection": "a",
+				"statement": ""
+			},
+			"2": {
+				"selection": "b",
+				"statement": ""
+			},
+			"3": {
+				"selection": "b",
+				"statement": ""
+			},
+			"4": {
+				"selection": "b",
+				"statement": ""
+			},
+			"5": {
+				"selection": "b",
+				"statement": ""
+			},
+			"6": {
+				"selection": "c",
+				"statement": ""
+			},
+			"7": {
+				"selection": "a",
+				"statement": ""
+			}
+		},
+		"4": {
+			"0": {
+				"selection": "b",
+				"statement": ""
+			},
+			"1": {
+				"selection": "a",
+				"statement": ""
+			},
+			"2": {
+				"selection": "c",
+				"statement": ""
+			},
+			"3": {
+				"selection": "b",
+				"statement": ""
+			},
+			"4": {
+				"selection": "b",
+				"statement": ""
+			},
+			"5": {
+				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "b",
+				"statement": ""
+			},
+			"7": {
+				"selection": "a",
+				"statement": ""
+			}
+		},
+		"5": {
+			"0": {
+				"selection": "a",
+				"statement": ""
+			},
+			"1": {
+				"selection": "a",
+				"statement": ""
+			},
+			"2": {
+				"selection": "c",
+				"statement": ""
+			},
+			"3": {
+				"selection": "b",
+				"statement": ""
+			},
+			"4": {
+				"selection": "c",
+				"statement": ""
+			},
+			"5": {
+				"selection": "c",
+				"statement": ""
+			},
+			"6": {
+				"selection": "c",
+				"statement": ""
+			},
+			"7": {
+				"selection": "a",
+				"statement": ""
+			}
+		},
+		"6": {
+			"0": {
+				"selection": "b",
+				"statement": ""
+			},
+			"1": {
+				"selection": "a",
+				"statement": ""
+			},
+			"2": {
+				"selection": "c",
+				"statement": ""
+			},
+			"3": {
+				"selection": "b",
+				"statement": ""
+			},
+			"4": {
+				"selection": "a",
+				"statement": ""
+			},
+			"5": {
+				"selection": "c",
+				"statement": ""
+			},
+			"6": {
+				"selection": "b",
+				"statement": ""
+			},
+			"7": {
+				"selection": "c",
+				"statement": ""
+			}
+		},
+		"7": {
+			"0": {
+				"selection": "b",
+				"statement": ""
+			},
+			"1": {
+				"selection": "a",
+				"statement": ""
+			},
+			"2": {
+				"selection": "c",
+				"statement": ""
+			},
+			"3": {
+				"selection": "b",
+				"statement": ""
+			},
+			"4": {
+				"selection": "b",
+				"statement": ""
+			},
+			"5": {
+				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "a",
+				"statement": ""
+			},
+			"7": {
+				"selection": "b",
+				"statement": ""
+			}
+		}
+	}
+}
