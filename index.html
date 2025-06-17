@@ -289,46 +289,34 @@
 
 	<div id="result" class="container">
 
-  <h4 id="title-results">title-results</h4>
+		<h4 id="title-results">title-results</h4>
 
-  <div class="row result-summary-row mb-3">
-    <!-- Hauptinhalt: clickable Element -->
-    <div class="col-12 col-md-10 offset-md-1" data-toggle="collapse" data-target="#feature-collapse-1" aria-expanded="false" aria-controls="feature-collapse-1" style="cursor:pointer;">
-      <div class="card feature-summary">
-        <div class="card-body">
-          <h5 class="card-title">Partei XYZ</h5>
-          <p>Kurze Zusammenfassung dieses Ergebnisses...</p>
-        </div>
-      </div>
-    </div>
+		<div class="row" id="result-summary-row">
+			<div class="card col-sm-8 offset-sm-2">
+				<div class="card-body">
+					<h5 class="card-title" id="title-results-summary">title-results-summary</h5>
+					<div id="result-summary">
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- Ausklappbarer Inhalt am Ende der row -->
-    <div class="col-12 collapse mt-2" id="feature-collapse-1">
-      <div class="card feature-detail">
-        <div class="card-body">
-          <p><strong>Begründung der Partei:</strong></p>
-          <p class="form-control-plaintext">
-            Die Partei begründet ihre Entscheidung wie folgt: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+		<p class="text-center" id="text-result-below-summary">
+			text-result-below-summary
+		</p>
 
-  <p class="text-center" id="text-result-below-summary">
-    text-result-below-summary
-  </p>
+		<h5 id="title-results-details">title-results-details</h5>
 
-  <h5 id="title-results-details">title-results-details</h5>
+		<div id="result-detail">
+		</div>
 
-  <p class="text-center">
-    <small>
-      <button class="btn btn-sm btn-light" id="btn-results-show-start">btn-results-show-start</button>
-      <button class="btn btn-sm btn-light" id="btn-results-show-qa">btn-results-show-qa</button>
-    </small>
-  </p>
-</div>
-
+		<p class="text-center">
+			<small>
+				<button class="btn btn-sm btn-light" id="btn-results-show-start">btn-results-show-start</button>
+				<button class="btn btn-sm btn-light" id="btn-results-show-qa">btn-results-show-qa</button>
+			</small>
+		</p>
+	</div>
 
 	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
