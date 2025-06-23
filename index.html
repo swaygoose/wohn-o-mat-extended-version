@@ -336,22 +336,23 @@
   </div>
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('.clickable-result').forEach(function (element) {
-      element.addEventListener('click', function () {
-        const title = this.getAttribute('data-title');
-        const body = this.getAttribute('data-body');
+	<script>
+	  document.addEventListener("DOMContentLoaded", function () {
+		document.querySelectorAll('.clickable-result').forEach(function (element) {
+		  element.addEventListener('click', function () {
+			const title = this.getAttribute('data-title');
+			const body = this.getAttribute('data-body');
 
-        const modal = document.getElementById('infoModal');
-        modal.querySelector('.modal-title').textContent = title;
-        modal.querySelector('.modal-body').textContent = body;
+			const modal = document.getElementById('infoModal');
+			modal.querySelector('.modal-title').textContent = title;
+			modal.querySelector('.modal-body').textContent = body;
 
-        $('#infoModal').modal('show');
-      });
-    });
-  });
-</script>
+			$('#infoModal').modal('show');
+		  });
+		});
+	  });
+	   document.getElementById("result").style.display = "block";
+	</script>
 
 
 	<script src="js/jquery-3.7.1.min.js"></script>
