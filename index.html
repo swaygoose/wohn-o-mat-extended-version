@@ -289,22 +289,12 @@
 
 	<div id="result" class="container">
 
-		<h4 id="title-results">title-results</h4>
-
-		<div class="row" id="result-summary-row">
-			<div class="card col-sm-8 offset-sm-2">
-				<div class="card-body">
-					<h5 class="card-title" id="title-results-summary">title-results-summary</h5>
-					<div id="result-summary">
-					</div>
-			<div id="result" class="container">
-
   <h4 id="title-results">title-results</h4>
 
   <!-- Beispielhafte Karte mit Modal-Trigger -->
   <div class="row result-summary-row mb-3">
     <div class="col-12 col-md-10 offset-md-1">
-      <div class="card feature-summary" data-toggle="modal" data-target="#infoModal"
+      <div class="card feature-summary clickable-result"
            data-title="Partei XYZ"
            data-body="Die Partei XYZ begründet ihre Haltung wie folgt: Wir setzen uns für bezahlbaren Wohnraum ein, weil...">
         <div class="card-body">
@@ -347,37 +337,22 @@
 </div>
 
 <script>
-  $('#infoModal').on('show.bs.modal', function (event) {
-    var trigger = $(event.relatedTarget); // Karte, die geklickt wurde
-    var title = trigger.data('title');
-    var body = trigger.data('body');
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('.clickable-result').forEach(function (element) {
+      element.addEventListener('click', function () {
+        const title = this.getAttribute('data-title');
+        const body = this.getAttribute('data-body');
 
-    var modal = $(this);
-    modal.find('.modal-title').text(title);
-    modal.find('.modal-body').text(body);
+        const modal = document.getElementById('infoModal');
+        modal.querySelector('.modal-title').textContent = title;
+        modal.querySelector('.modal-body').textContent = body;
+
+        $('#infoModal').modal('show');
+      });
+    });
   });
 </script>
 
-				</div>
-			</div>
-		</div>
-
-		<p class="text-center" id="text-result-below-summary">
-			text-result-below-summary
-		</p>
-
-		<h5 id="title-results-details">title-results-details</h5>
-
-		<div id="result-detail">
-		</div>
-
-		<p class="text-center">
-			<small>
-				<button class="btn btn-sm btn-light" id="btn-results-show-start">btn-results-show-start</button>
-				<button class="btn btn-sm btn-light" id="btn-results-show-qa">btn-results-show-qa</button>
-			</small>
-		</p>
-	</div>
 
 	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
