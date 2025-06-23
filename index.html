@@ -289,59 +289,34 @@
 
 	<div id="result" class="container">
 
-  <h4 id="title-results">title-results</h4>
+		<h4 id="title-results">title-results</h4>
 
-  <div class="row" id="result-summary-row">
-    <div class="card col-sm-8 offset-sm-2">
-      <div class="card-body">
-        <h5 class="card-title" id="title-results-summary">title-results-summary</h5>
-        <div id="result-summary">
+		<div class="row" id="result-summary-row">
+			<div class="card col-sm-8 offset-sm-2">
+				<div class="card-body">
+					<h5 class="card-title" id="title-results-summary">title-results-summary</h5>
+					<div id="result-summary">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<p class="text-center" id="text-result-below-summary">
+			text-result-below-summary
+		</p>
+
 		<h5 id="title-results-details">title-results-details</h5>
 
-		  <div id="result-detail" class="row">
-			<div class="col-12 col-md-6 card clickable-card" data-href="detailseite1.html">
-			  <div class="card-body">
-				<h5 class="card-title">Ergebnis 1</h5>
-				<p class="card-text">Beschreibung Ergebnis 1</p>
-			  </div>
-			</div>
-			<div class="col-12 col-md-6 card clickable-card" data-href="detailseite2.html">
-			  <div class="card-body">
-				<h5 class="card-title">Ergebnis 2</h5>
-				<p class="card-text">Beschreibung Ergebnis 2</p>
-			  </div>
-			</div>
-		  </div>
+		<div id="result-detail">
 		</div>
-      </div>
-    </div>
-  </div>
 
-  <p class="text-center" id="text-result-below-summary">
-    text-result-below-summary
-  </p>
-
-  
-
-  <p class="text-center">
-    <small>
-      <button class="btn btn-sm btn-light" id="btn-results-show-start">btn-results-show-start</button>
-      <button class="btn btn-sm btn-light" id="btn-results-show-qa">btn-results-show-qa</button>
-    </small>
-  </p>
-</div>
-
-<script>
-  document.querySelectorAll('.clickable-card').forEach(card => {
-    card.addEventListener('click', function(e) {
-      if (e.target.closest('a, button')) return; // Klick auf Link/Button ignorieren
-      const href = this.getAttribute('data-href');
-      if (href) {
-        window.location.href = href;
-      }
-    });
-  });
-</script>
+		<p class="text-center">
+			<small>
+				<button class="btn btn-sm btn-light" id="btn-results-show-start">btn-results-show-start</button>
+				<button class="btn btn-sm btn-light" id="btn-results-show-qa">btn-results-show-qa</button>
+			</small>
+		</p>
+	</div>
 
 	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
