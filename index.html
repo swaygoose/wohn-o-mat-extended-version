@@ -297,27 +297,67 @@
 					<h5 class="card-title" id="title-results-summary">title-results-summary</h5>
 					<div id="result-summary">
 					</div>
-					<!-- NEUER AUFKLAPPBARER INFO-BLOCK -->
-<div class="card result-detail-card my-3">
-  <div class="card-header" data-toggle="collapse" data-target="#infoCollapse" aria-expanded="false" aria-controls="infoCollapse" style="cursor: pointer;">
-    <strong>Mehr Informationen zum Ergebnis</strong>
-    <span class="float-right"><i class="fas fa-chevron-down"></i></span>
+			<div id="result" class="container">
+
+  <h4 id="title-results">title-results</h4>
+
+  <!-- Beispielhafte Karte mit Modal-Trigger -->
+  <div class="row result-summary-row mb-3">
+    <div class="col-12 col-md-10 offset-md-1">
+      <div class="card feature-summary" data-toggle="modal" data-target="#infoModal"
+           data-title="Partei XYZ"
+           data-body="Die Partei XYZ begründet ihre Haltung wie folgt: Wir setzen uns für bezahlbaren Wohnraum ein, weil...">
+        <div class="card-body">
+          <h5 class="card-title">Partei XYZ</h5>
+          <p>Klicke für mehr Details</p>
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="infoCollapse" class="collapse">
-    <div class="card-body">
-      <p>
-        Hier findest du zusätzliche Hinweise zur Auswertung, z.&nbsp;B. wie die Punkte zustande kommen, welche Wohnformen eventuell besser passen könnten
-        oder Tipps zur weiteren Recherche.
-      </p>
-      <ul>
-        <li>Die Punktzahlen basieren auf deinen Antworten in Bezug auf Passgenauigkeit.</li>
-        <li>Ein höherer Wert bedeutet eine bessere Übereinstimmung.</li>
-        <li>Beachte, dass individuelle Wohnwünsche nicht vollständig automatisiert abgebildet werden können.</li>
-      </ul>
+
+  <p class="text-center" id="text-result-below-summary">
+    text-result-below-summary
+  </p>
+
+  <h5 id="title-results-details">title-results-details</h5>
+
+  <p class="text-center">
+    <small>
+      <button class="btn btn-sm btn-light" id="btn-results-show-start">btn-results-show-start</button>
+      <button class="btn btn-sm btn-light" id="btn-results-show-qa">btn-results-show-qa</button>
+    </small>
+  </p>
+</div>
+
+<!-- Dynamisches Modal für Detailanzeige -->
+<div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="infoModalLabel">Titel</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Schließen">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="infoModalBody">
+        Hier erscheint der Text zur Partei.
+      </div>
     </div>
   </div>
 </div>
-<!-- ENDE INFO-BLOCK -->
+
+<script>
+  $('#infoModal').on('show.bs.modal', function (event) {
+    var trigger = $(event.relatedTarget); // Karte, die geklickt wurde
+    var title = trigger.data('title');
+    var body = trigger.data('body');
+
+    var modal = $(this);
+    modal.find('.modal-title').text(title);
+    modal.find('.modal-body').text(body);
+  });
+</script>
+
 				</div>
 			</div>
 		</div>
