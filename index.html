@@ -317,7 +317,18 @@
 			</small>
 		</p>
 	</div>
+	<script>
+	document.addEventListener("DOMContentLoaded", function () {
+	// Alle Elemente mit exakt diesen Klassen selektieren
+		const elements = document.querySelectorAll('.col-12.col-md-1');
 
+		elements.forEach(function (el) {
+			el.addEventListener('click', function () {
+				alert('Du hast ein Element mit der Klasse col-12 col-md-1 angeklickt!');
+			});
+		});
+	});
+	</script>
 	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/hammer.min.js"></script>
