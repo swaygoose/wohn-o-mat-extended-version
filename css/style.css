@@ -10,18 +10,15 @@ html, body {
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px; /* Abstand zwischen den Bildern */
-}
-
-.item {
-  flex: 0 0 48%; /* Zwei Spalten */
-  box-sizing: border-box;
-}
-
-.item img {
-  width: 48%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+ }
+ 
+ .grid img {
+  width: 100%;
   height: auto;
   display: block;
 }
