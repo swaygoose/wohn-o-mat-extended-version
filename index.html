@@ -319,13 +319,14 @@
 	</div>
 	<script>
 	document.addEventListener("DOMContentLoaded", function () {
-	// Alle Elemente mit exakt diesen Klassen selektieren
-		const elements = document.querySelectorAll('.col-12.col-md');
+	const elements = document.querySelectorAll('.col-12.col-md');
 
 		elements.forEach(function (el) {
-			el.addEventListener('click', function () {
-				alert('Du hast ein Element mit der Klasse col-12 col-md-1 angeklickt!');
-			});
+			if (el.textContent.trim() === "Wohnprojekt mit WG-Charakter") {
+				el.addEventListener('click', function () {
+					alert('Klick auf genau dieses Element!');
+				});
+			}
 		});
 	});
 	</script>
