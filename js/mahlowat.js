@@ -518,3 +518,15 @@ function animateBars() {
 function hideSwypeInfo() {
 	$("#swype-info").hide();
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+	const elements = document.querySelectorAll('.col-12.col-md');
+
+		elements.forEach(function (el) {
+			if (el.textContent.trim() === "Wohnprojekt mit WG-Charakter") {
+				el.addEventListener('click', function () {
+					alert('Klick auf genau dieses Element!');
+				});
+			}
+		});
+	});
