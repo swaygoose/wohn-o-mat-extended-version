@@ -14,8 +14,8 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* zwei Spalten mit gleicher Breite */
-  gap: 20px; /* 20px Abstand horizontal und vertikal */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   max-width: 1800px;
   padding: 10px;
   box-sizing: border-box;
@@ -37,8 +37,8 @@
 }
 
 @media (max-width: 600px) {
-  .item {
-    flex: 0 0 100%; /* untereinander */
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
 

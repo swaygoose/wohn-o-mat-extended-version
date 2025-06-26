@@ -518,37 +518,3 @@ function animateBars() {
 function hideSwypeInfo() {
 	$("#swype-info").hide();
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-  // Wiederherstellen von gespeicherten Werten
-  const savedButtonId = sessionStorage.getItem('selectedButtonId');
-  if (savedButtonId) {
-    const btn = document.getElementById(savedButtonId);
-    if (btn) {
-      btn.classList.add('active'); // Beispiel: active Klasse setzen
-      // Je nachdem, wie deine Buttons funktionieren, passe hier an
-    }
-  }
-
-  // Event Listener auf Buttons setzen (Beispiel für btn-yes, btn-no, ...)
-  ['btn-yes', 'btn-no', 'btn-neutral', 'btn-skip', 'btn-important'].forEach(id => {
-    const btn = document.getElementById(id);
-    if (btn) {
-      btn.addEventListener('click', () => {
-        // Speichere den zuletzt geklickten Button
-        sessionStorage.setItem('selectedButtonId', id);
-      });
-    }
-  });
-
-  // --- Scrollposition wiederherstellen ---
-  const scrollPos = sessionStorage.getItem('scrollPos');
-  if (scrollPos) {
-    window.scrollTo(0, parseInt(scrollPos, 10));
-  }
-});
-
-// --- Scrollposition speichern beim Verlassen ---
-window.addEventListener('beforeunload', () => {
-  sessionStorage.setItem('scrollPos', window.scrollY);
-});
