@@ -167,3 +167,7 @@ h4.result-detail-title,
   margin-left: auto;
   margin-right: auto;
 } 
+
+.col-12.col-md {
+	color: black;
+}
