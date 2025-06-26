@@ -143,6 +143,7 @@ h4.result-detail-title,
   white-space: nowrap !important;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: black;
 }
 
 /* ==== Ergebnis: Balkenfarbe in Ergebniskarten ==== */
@@ -156,6 +157,7 @@ h4.result-detail-title,
     white-space: normal !important;
     overflow: visible;
     text-overflow: unset;
+	color: black;
   }
 }
 
@@ -167,7 +169,3 @@ h4.result-detail-title,
   margin-left: auto;
   margin-right: auto;
 } 
-
-.col-12.col-md {
-	color: black;
-}
