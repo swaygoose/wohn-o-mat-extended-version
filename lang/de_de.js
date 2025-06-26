@@ -60,7 +60,7 @@ function () {
     this.btn_yes_text = "Zustimmung";
     this.btn_neutral_text = "Neutral";
     this.btn_no_text = "Ablehnung";
-    this.btn_skip_text = "Überspringen";
+    this.btn_skip_text = "Keine Antwort";
     this.btn_mahlowat_show_start = "Zurück zur Startseite";
     this.btn_mahlowat_show_qa = "Fragen &amp; Antworten";
     this.btn_mahlowat_skip_remaining_theses = "Alle verbleibenden Thesen überspringen und aktuellen Stand auswerten";
