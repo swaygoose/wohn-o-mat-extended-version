@@ -93,43 +93,43 @@
 		},
 		"1": {
 			"name": "Wohnprojekt mit WG-Charakter",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Wohnprojekt mit WG-Charakter</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnprojekt-mit-WG-Charakter' target='_blank'>Wohnprojekt mit WG-Charakter</a>"
 		},
 		"2": {
 			"name": "Clusterwohnung",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Clusterwohnung</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Clusterwohnung' target='_blank'>Clusterwohnung</a>"
 		},
 		"3": {
 			"name": "Betreutes Wohnen",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Betreutes Wohnen</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Betreutes-Wohnen' target='_blank'>Betreutes Wohnen</a>"
 		},
 		"4": {
 			"name": "Seniorenwohnung ",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Seniorenwohnung</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Seniorenwohnung' target='_blank'>Seniorenwohnung</a>"
 		},
 		"5": {
 			"name": "Barrierefreie Wohnung",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Barrierefreie Wohnung</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Barrierefreie-Wohnung' target='_blank'>Barrierefreie Wohnung</a>"
 		},
 		"6": {
 			"name": "Tiny House (Siedlung)",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Tiny House</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Tiny-House-(Siedlung)' target='_blank'>Tiny House (Siedlung)</a>"
 		},
 		"7": {
 			"name": "Projektbezogene Baugenossenschaft",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Projektbezogene Baugenossenschaft</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Projektbezogene-Baugenossenschaft' target='_blank'>Projektbezogene Baugenossenschaft</a>"
 		},
 		"8": {
 			"name": "Wohnen gegen Hilfe",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Wohnen gegen Hilfe</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnen-gegen-Hilfe' target='_blank'>Wohnen gegen Hilfe</a>"
 		},
 		"9": {
 			"name": "Einfamilienhaus",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Einfamilienhaus</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Einfamilienhaus' target='_blank'>Einfamilienhaus</a>"
 		},
 		"10": {
 			"name": "Eigene Wohnung",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Einfamilienhaus</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Einfamilienhaus' target='_blank'>Eigene Wohnung</a>"
 		}
 	},
 	"answers": {
