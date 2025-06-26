@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wohnformen Übersicht</title>
   <style>
-    body {
+   body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -13,17 +13,15 @@
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start; /* statt space-between */
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* zwei Spalten mit gleicher Breite */
+  gap: 20px; /* 20px Abstand horizontal und vertikal */
+  max-width: 1800px;
   padding: 10px;
   box-sizing: border-box;
 }
 
 .item {
-  flex: 0 0 calc(50% - 10px); /* 2 Spalten + Abstand ausgleichen */
-  box-sizing: border-box;
   background: white;
   padding: 10px;
   border-radius: 8px;
@@ -37,31 +35,34 @@
 }
 
 @media (max-width: 600px) {
-	  .item {
-		flex: 0 0 100%; /* untereinander auf kleineren Screens */
-	  }
-	}
+  .item {
+    flex: 0 0 100%; /* untereinander */
+  }
+}
 
 .headboard {
-	  background-color: #aa4e36;
-	  position: sticky;
-	  top: 5px;
-	  z-index: 1000;
-	  border-radius: 6px;
-	  margin: 5px;
-	  padding: 5px; /* sorgt dafür, dass Button innen Abstand hat */
-	}
+  background-color: #aa4e36;
+  position: sticky;
+  top: 10px;
+  z-index: 1000;
+  border-radius: 6px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end; /* Button rechts ausrichten */
+  align-items: center;
+  padding: 5px;
+}
 
 .button {
-	  background-color: #833c2a;  /* vorher Randfarbe, jetzt Hintergrund */
-	  color: white;
-	  font-weight: bold;
-	  border: none;               /* kein Rand mehr */
-	  border-radius: 6px;
-	  padding: 10px 16px;
-	  cursor: pointer;
-	  font-size: 1rem;
-	}
+  background-color: #833c2a; /* vorher Randfarbe als Hintergrund */
+  color: white;
+  font-weight: bold;
+  border: none;             /* kein Rand */
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 1rem;
+}
 
   </style>
 </head>
