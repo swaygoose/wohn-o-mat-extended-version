@@ -88,8 +88,8 @@
 	},
 	"lists": {
 		"0": {
-			"name": "Mehrgenerationenwohnen",
-			"name_x": "Mehrgenerationenwohnen"
+			"name": "<a href='https://example.com' target='_blank'>Mehrgenerationenwohnen</a>",
+			"name_x": "<a href='https://example.com' target='_blank'>Mehrgenerationenwohnen</a>"
 		},
 		"1": {
 			"name": "Wohnprojekt mit WG-Charakter",
