@@ -89,7 +89,7 @@
 	"lists": {
 		"0": {
 			"name": "Mehrgenerationenwohnen",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Mehrgenerationenwohnen</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' target='_blank'>Mehrgenerationenwohnen</a> <script> function open(event) { event.preventDefault(); location.replace(event.currentTarget.href); } </script>"
 		},
 		"1": {
 			"name": "Wohnprojekt mit WG-Charakter",
