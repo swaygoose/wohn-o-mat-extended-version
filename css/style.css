@@ -22,6 +22,12 @@ body {
   box-sizing: border-box;
 }
 
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .button {
   position: sticky;
   top: 20px;
