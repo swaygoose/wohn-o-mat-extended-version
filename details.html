@@ -4,8 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wohnformen Übersicht</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .item {
+      flex: 0 0 48%; /* zwei pro Zeile */
+      box-sizing: border-box;
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @media (max-width: 600px) {
+      .item {
+        flex: 0 0 100%; /* untereinander */
+      }
+    }
+
+    .button {
+      position: sticky;
+      top: 10px;
+      margin: 10px;
+      background-color: #AA4E36;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
 </head>
+
 <body>
 
   <div class="button">
@@ -13,7 +65,6 @@
 	<button onclick="history.back()">Zurück</button>
   </div>
 
-  <div class="container">
     <div class="grid">
       <div class="item" id="Mehrgenerationenwohnen">
         <img src="img/Mehrgenerationenwohnen.png" alt="Mehrgenerationenwohnen">
@@ -55,7 +106,67 @@
         <img src="img/Einfamilienhaus.png" alt="Einfamilienhaus">
       </div>
 	</div>
-  </div>
-
 </body>
 </html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wohnformen Übersicht</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div class="button">
+    <!-- <a href="https://swaygoose.github.io/wohn-o-mat-extended-version/" class="zurueck-button">Zurück</a> 
+	<button onclick="history.back()">Zurück</button>
+  </div>
+
+    <div class="grid">
+      <div class="item" id="Mehrgenerationenwohnen">
+        <img src="img/Mehrgenerationenwohnen.png" alt="Mehrgenerationenwohnen">
+		<hr size="2" color="black"/>
+      </div>
+      <div class="item" id="Wohnprojekt-mit-WG-Charakter">
+        <img src="img/Wohnprojekt-mit-WG-Charakter.png" alt="Wohnprojekt mit WG-Charakter">
+		<hr size="2" color="black"/>
+      </div>
+      <div class="item" id="Clusterwohnung">
+        <img src="img/Clusterwohnung.png" alt="Clusterwohnung">
+		<hr size="2" color="black"/>
+      </div>
+      <div class="item" id="Betreutes-Wohnen">
+        <img src="img/Betreutes-Wohnen.png" alt="Betreutes Wohnen">
+		<hr size="2" color="black"/>
+      </div>
+      <div class="item" id="Seniorenwohnung">
+        <img src="img/Seniorenwohnung.png" alt="Seniorenwohnung">
+		<hr size="2" color="black"/>
+      </div>
+      <div class="item" id="Barrierefreie-Wohnung">
+        <img src="img/Barrierefreie-Wohnung.png" alt="Barrierefreie Wohnung">
+		<hr size="2" color="black"/>
+      </div>
+      <div class="item" id="Tiny-House-(Siedlung)">
+        <img src="img/Tiny-House.png" alt="Tiny House-(Siedlung)">
+		<hr size="2" color="black"/>
+      </div>
+      <div class="item" id="Projektbezogenen-Baugenossenschaft">
+        <img src="img/Projektbezogenen-Baugenossenschaft.png" alt="Projektbezogene Baugenossenschaft">
+		<hr size="2" color="black"/>
+      </div>
+      <div class="item" id="Wohnen-gegen-Hilfe">
+        <img src="img/Wohnen-gegen-Hilfe.png" alt="Wohnen gegen Hilfe">
+		<hr size="2" color="black"/>
+      </div>
+      <div class="item" id="Einfamilienhaus">
+        <img src="img/Einfamilienhaus.png" alt="Einfamilienhaus">
+      </div>
+	</div>
+
+</body>
+</html> -->
