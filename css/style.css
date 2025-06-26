@@ -34,22 +34,22 @@ body {
 /* === Contentbereich === */
 .content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: nowrap; /* Kein Umbruch auf Desktop */
 }
 
 .text {
-  flex: 1 1 55%;
+  flex: 0 1 60%;
   font-size: 1.1rem;
   line-height: 1.6;
-  max-width: 55%;
 }
 
 .image {
-  flex: 0 0 auto;
-  max-width: 40%;
-  margin-left: auto; /* Schiebt das Bild ganz nach rechts */
+  flex: 0 0 35%; /* feste Breite, damit Bild nicht nach unten fällt */
+  text-align: right;
 }
 
 .image img {
@@ -88,20 +88,26 @@ body {
   text-decoration: underline;
 }
 
+.dashed-divider {
+  border: none;
+  border-bottom: 2px dashed #AA4E36;
+  margin: 40px 0;
+}
+
 @media (max-width: 768px) {
   .content {
     flex-direction: column;
   }
 
-  .text,
-  .image {
+  .text, .image {
+    flex: 1 1 100%;
     max-width: 100%;
   }
 
   .image {
-    margin-left: 0;
-    margin-top: 20px;
     text-align: center;
+    margin-top: 20px;
   }
 }
+
 
