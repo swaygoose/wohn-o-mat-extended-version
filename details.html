@@ -1,195 +1,134 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Wohnformen Übersicht</title>
   <style>
-   body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background-color: #FBF1E8;
-}
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #FBF1E8;
+    }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  max-width: 1800px;
-  padding: 10px;
-  box-sizing: border-box;
-}
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 1800px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
 
-.item {
-  background: white;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: relative;
-  scroll-margin-top: 70px; /* Höhe des Headboards + etwas Puffer */
-}
+    .item {
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: relative;
+      scroll-margin-top: 70px;
+    }
 
-.item img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+    .item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
 
-@media (max-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
+    .full-width {
+      grid-column: span 2;
+    }
 
-.headboard {
-  background-color: #aa4e36;
-  position: sticky;
-  top: 10px;
-  z-index: 1000;
-  border-radius: 6px;
-  margin: 10px;
-  display: flex;
-  justify-content: flex-end; /* Button rechts ausrichten */
-  align-items: center;
-  padding: 5px;
-}
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .full-width {
+        grid-column: span 1;
+      }
+    }
 
-.back_button {
-  background-color: #833c2a; /* vorher Randfarbe als Hintergrund */
-  color: white;
-  font-weight: bold;
-  border: none;             /* kein Rand */
-  border-radius: 6px;
-  padding: 10px 16px;
-  cursor: pointer;
-  font-size: 1rem;
-}
+    .headboard {
+      background-color: #aa4e36;
+      position: sticky;
+      top: 10px;
+      z-index: 1000;
+      border-radius: 6px;
+      margin: 10px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 5px;
+      gap: 5px; /* Abstand zwischen Buttons */
+    }
 
-.link_button {
-  background-color: #833c2a; /* vorher Randfarbe als Hintergrund */
-  color: white;
-  font-weight: bold;
-  border: none;             /* kein Rand */
-  border-radius: 6px;
-  padding: 10px 16px;
-  padding-left: 20px;
-  cursor: pointer;
-  font-size: 1rem;
-}
+    .back_button,
+    .link_button {
+      background-color: #833c2a;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-size: 1rem;
+      text-decoration: none;
+      display: inline-block;
+    }
 
+    .detail-text {
+      font-size: 20px;
+    }
   </style>
 </head>
 
 <body>
-
   <div class="headboard">
-    <!-- <a href="https://swaygoose.github.io/wohn-o-mat-extended-version/" class="zurueck-button">Zurück</a> -->
-	<button class="link_button"><a href="#Links" style='color: white; text-decoration: none;'>Weitere Infos!</a></button>
-	<button class="back_button" onclick="history.back()">Zurück</a></button>
+    <a class="link_button" href="#Links">Weitere Infos!</a>
+    <button class="back_button" onclick="history.back()">Zurück</button>
   </div>
 
-    <div class="grid">
-      <div class="item" id="Mehrgenerationenwohnen">
-        <img src="img/Mehrgenerationenwohnen.png" alt="Mehrgenerationenwohnen">
-      </div>
-      <div class="item" id="Wohnprojekt-mit-WG-Charakter">
-        <img src="img/Wohnprojekt-mit-WG-Charakter.png" alt="Wohnprojekt mit WG-Charakter">
-      </div>
-      <div class="item" id="Clusterwohnung">
-        <img src="img/Clusterwohnung.png" alt="Clusterwohnung">
-      </div>
-      <div class="item" id="Betreutes-Wohnen">
-        <img src="img/Betreutes-Wohnen.png" alt="Betreutes Wohnen">
-      </div>
-      <div class="item" id="Seniorenwohnung">
-        <img src="img/Seniorenwohnung.png" alt="Seniorenwohnung">
-      </div>
-      <div class="item" id="Barrierefreie-Wohnung">
-        <img src="img/Barrierefreie-Wohnung.png" alt="Barrierefreie Wohnung">
-      </div>
-      <div class="item" id="Tiny-House-(Siedlung)">
-        <img src="img/Tiny-House.png" alt="Tiny House-(Siedlung)">
-      </div>
-      <div class="item" id="Projektbezogenen-Baugenossenschaft">
-        <img src="img/Projektbezogenen-Baugenossenschaft.png" alt="Projektbezogene Baugenossenschaft">
-      </div>
-      <div class="item" id="Wohnen-gegen-Hilfe">
-        <img src="img/Wohnen-gegen-Hilfe.png" alt="Wohnen gegen Hilfe">
-      </div>
-      <div class="item" id="Einfamilienhaus">
-        <img src="img/Einfamilienhaus.png" alt="Einfamilienhaus">
-      </div>
-		<div id="Links" class="item" style="grid-template-columns: 1fr;">
-			<p>
-			Hier sind verschiedene Links aufgeführt:
-			<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnprojekt-mit-WG-Charakter' style='color: black;'>Wohnprojekt mit WG-Charakter</a><br>
-			<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnprojekt-mit-WG-Charakter' style='color: black;'>Wohnprojekt mit WG-Charakter</a><br>
-			<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnprojekt-mit-WG-Charakter' style='color: black;'>Wohnprojekt mit WG-Charakter</a><br>
-			</p>
-		</div>
-	</div>
+  <div class="grid">
+    <div class="item" id="Mehrgenerationenwohnen">
+      <img src="img/Mehrgenerationenwohnen.png" alt="Mehrgenerationenwohnen" />
+    </div>
+    <div class="item" id="Wohnprojekt-mit-WG-Charakter">
+      <img src="img/Wohnprojekt-mit-WG-Charakter.png" alt="Wohnprojekt mit WG-Charakter" />
+    </div>
+    <div class="item" id="Clusterwohnung">
+      <img src="img/Clusterwohnung.png" alt="Clusterwohnung" />
+    </div>
+    <div class="item" id="Betreutes-Wohnen">
+      <img src="img/Betreutes-Wohnen.png" alt="Betreutes Wohnen" />
+    </div>
+    <div class="item" id="Seniorenwohnung">
+      <img src="img/Seniorenwohnung.png" alt="Seniorenwohnung" />
+    </div>
+    <div class="item" id="Barrierefreie-Wohnung">
+      <img src="img/Barrierefreie-Wohnung.png" alt="Barrierefreie Wohnung" />
+    </div>
+    <div class="item" id="Tiny-House-(Siedlung)">
+      <img src="img/Tiny-House.png" alt="Tiny House-(Siedlung)" />
+    </div>
+    <div class="item" id="Projektbezogenen-Baugenossenschaft">
+      <img src="img/Projektbezogenen-Baugenossenschaft.png" alt="Projektbezogene Baugenossenschaft" />
+    </div>
+    <div class="item" id="Wohnen-gegen-Hilfe">
+      <img src="img/Wohnen-gegen-Hilfe.png" alt="Wohnen gegen Hilfe" />
+    </div>
+    <div class="item" id="Einfamilienhaus">
+      <img src="img/Einfamilienhaus.png" alt="Einfamilienhaus" />
+    </div>
+
+    <div id="Links" class="item full-width">
+      <p class="detail-text">
+        <strong>Weitere Informationen zu gemeinschaftlichen Wohnprojekten und verschiedenen Formen des Zusammenwohnens gibt es hier:</strong><br />
+        <a href="https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnprojekt-mit-WG-Charakter" style="color: black;">Wohnprojekt mit WG-Charakter</a><br />
+        <a href="https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnprojekt-mit-WG-Charakter" style="color: black;">Wohnprojekt mit WG-Charakter</a><br />
+        <a href="https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnprojekt-mit-WG-Charakter" style="color: black;">Wohnprojekt mit WG-Charakter</a><br />
+      </p>
+    </div>
+  </div>
 </body>
 </html>
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wohnformen Übersicht</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-
-  <div class="button">
-    <!-- <a href="https://swaygoose.github.io/wohn-o-mat-extended-version/" class="zurueck-button">Zurück</a> 
-	<button onclick="history.back()">Zurück</button>
-  </div>
-
-    <div class="grid">
-      <div class="item" id="Mehrgenerationenwohnen">
-        <img src="img/Mehrgenerationenwohnen.png" alt="Mehrgenerationenwohnen">
-		<hr size="2" color="black"/>
-      </div>
-      <div class="item" id="Wohnprojekt-mit-WG-Charakter">
-        <img src="img/Wohnprojekt-mit-WG-Charakter.png" alt="Wohnprojekt mit WG-Charakter">
-		<hr size="2" color="black"/>
-      </div>
-      <div class="item" id="Clusterwohnung">
-        <img src="img/Clusterwohnung.png" alt="Clusterwohnung">
-		<hr size="2" color="black"/>
-      </div>
-      <div class="item" id="Betreutes-Wohnen">
-        <img src="img/Betreutes-Wohnen.png" alt="Betreutes Wohnen">
-		<hr size="2" color="black"/>
-      </div>
-      <div class="item" id="Seniorenwohnung">
-        <img src="img/Seniorenwohnung.png" alt="Seniorenwohnung">
-		<hr size="2" color="black"/>
-      </div>
-      <div class="item" id="Barrierefreie-Wohnung">
-        <img src="img/Barrierefreie-Wohnung.png" alt="Barrierefreie Wohnung">
-		<hr size="2" color="black"/>
-      </div>
-      <div class="item" id="Tiny-House-(Siedlung)">
-        <img src="img/Tiny-House.png" alt="Tiny House-(Siedlung)">
-		<hr size="2" color="black"/>
-      </div>
-      <div class="item" id="Projektbezogenen-Baugenossenschaft">
-        <img src="img/Projektbezogenen-Baugenossenschaft.png" alt="Projektbezogene Baugenossenschaft">
-		<hr size="2" color="black"/>
-      </div>
-      <div class="item" id="Wohnen-gegen-Hilfe">
-        <img src="img/Wohnen-gegen-Hilfe.png" alt="Wohnen gegen Hilfe">
-		<hr size="2" color="black"/>
-      </div>
-      <div class="item" id="Einfamilienhaus">
-        <img src="img/Einfamilienhaus.png" alt="Einfamilienhaus">
-      </div>
-	</div>
-
-</body>
-</html> -->
