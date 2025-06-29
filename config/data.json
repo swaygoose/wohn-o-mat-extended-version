@@ -97,39 +97,39 @@
 		},
 		"2": {
 			"name": "Clusterwohnung",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Clusterwohnung'>Clusterwohnung</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Clusterwohnung' style='color: black;'>Clusterwohnung</a>"
 		},
 		"3": {
 			"name": "Betreutes Wohnen",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Betreutes-Wohnen'>Betreutes Wohnen</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Betreutes-Wohnen' style='color: black;'>Betreutes Wohnen</a>"
 		},
 		"4": {
 			"name": "Seniorenwohnung ",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Seniorenwohnung'>Seniorenwohnung</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Seniorenwohnung' style='color: black;'>Seniorenwohnung</a>"
 		},
 		"5": {
 			"name": "Barrierefreie Wohnung",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Barrierefreie-Wohnung'>Barrierefreie Wohnung</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Barrierefreie-Wohnung' style='color: black;'>Barrierefreie Wohnung</a>"
 		},
 		"6": {
 			"name": "Tiny House (Siedlung)",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Tiny-House-(Siedlung)'>Tiny House (Siedlung)</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Tiny-House-(Siedlung)' style='color: black;'>Tiny House (Siedlung)</a>"
 		},
 		"7": {
 			"name": "Projektbezogene Baugenossenschaft",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Projektbezogene-Baugenossenschaft'>Projektbezogene Baugenossenschaft</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Projektbezogene-Baugenossenschaft' style='color: black;'>Projektbezogene Baugenossenschaft</a>"
 		},
 		"8": {
 			"name": "Wohnen gegen Hilfe",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnen-gegen-Hilfe'>Wohnen gegen Hilfe</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Wohnen-gegen-Hilfe' style='color: black;'>Wohnen gegen Hilfe</a>"
 		},
 		"9": {
 			"name": "Einfamilienhaus",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Einfamilienhaus'>Einfamilienhaus</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Einfamilienhaus' style='color: black;'>Einfamilienhaus</a>"
 		},
 		"10": {
 			"name": "Eigene Wohnung",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Einfamilienhaus'>Eigene Wohnung</a>"
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Einfamilienhaus' style='color: black;'>Eigene Wohnung</a>"
 		}
 	},
 	"answers": {
