@@ -181,3 +181,7 @@ h4.result-detail-title,
 .card-text.lead {
   word-wrap: break-word !important;
 }
+
+.card-header.result-detail-header small {
+  font-weight: bold !important;
+}
