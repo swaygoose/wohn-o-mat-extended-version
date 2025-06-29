@@ -411,7 +411,7 @@ function toggleThesisMore() {
 	$('#thesis-more').slideToggle();
 }
 
-/*function initResultDetails() {
+function initResultDetails() {
 	$('#result-detail').empty();
 	for (thesis_id in data.theses) {
 		let thesisNumber = parseInt(thesis_id) + 1;
@@ -444,7 +444,7 @@ function toggleThesisMore() {
 	}
 	setResultDetailCallbacks();
 	$('.result-details').toggle();
-} */
+} 
 
 function statementOrDefault(statement) {
 	if (statement === "") {
