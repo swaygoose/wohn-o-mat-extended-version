@@ -171,12 +171,11 @@ h4.result-detail-title,
   margin-right: auto;
 } 
 
-.result-detail {
-  color: white !important;
-}
-
-.card-footer.result-detail-footer {
-  color: white !important;	
+.card.result-detail-card .badge a {
+  pointer-events: none;
+  cursor: default;
+  color: #fff !important;
+  text-decoration: none;
 }
 
 .card-text.lead {
