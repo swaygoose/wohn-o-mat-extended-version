@@ -47,7 +47,7 @@ function () {
 					<p>Oh nein! Wenn du den Fehler\
 						<a href="https://github.com/hszemi/mahlowat">meldest</a>, wird er vielleicht behoben.</p>';
     this.btn_qa_modal_close = "Schließen";
-    this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
+    this.swype_info_message_text = "Wische, um manuell zwischen den Fragen zu wechseln";
     this.btn_swype_info_ok = "OK";
     this.start_subtitle = "Finde heraus, welche Wohnform zu dir passt!";
     this.start_explanatory_text = "<p></p>\
@@ -62,7 +62,7 @@ function () {
     this.btn_skip_text = "Keine Antwort";
     this.btn_mahlowat_show_start = "Zurück zur Startseite";
     this.btn_mahlowat_show_qa = "Fragen &amp; Antworten";
-    this.btn_mahlowat_skip_remaining_theses = "Alle verbleibenden Thesen überspringen und aktuellen Stand auswerten";
+    this.btn_mahlowat_skip_remaining_theses = "Alle verbleibenden Fragen überspringen und aktuellen Stand auswerten";
     this.title_results = "Ergebnis";
     this.title_results_summary = "Zusammenfassung";
     this.text_result_below_summary = '<small>Nicht zufrieden mit dem Ergebnis?\
@@ -91,7 +91,7 @@ function () {
   }, {
     key: "btn_thesis_has_double_weight",
     get: function get() {
-      return "These wird doppelt gewichtet";
+      return "Frage wird doppelt gewichtet";
     }
   }, {
     key: "label_your_choice",
