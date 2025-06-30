@@ -103,7 +103,7 @@ body {
 
 .badge.badge-warning {
   background-color: #98C0E3 !important; /* Korrigiert */
-  color: #212529 !important;
+  color: #fff !important;
 }
 
 .badge.badge-danger {
