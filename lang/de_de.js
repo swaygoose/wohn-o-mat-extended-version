@@ -55,7 +55,7 @@ function () {
     this.btn_start = "Wohn-o-Mat starten!";
     this.btn_start_show_qa = "Fragen &amp; Antworten";
     this.btn_toggle_thesis_more_text = "Erläuterung";
-    this.btn_important = "These doppelt gewichten";
+    this.btn_important = "Frage doppelt gewichten";
     this.btn_yes_text = "Ja";
     this.btn_neutral_text = "Egal";
     this.btn_no_text = "Nein";
@@ -76,7 +76,7 @@ function () {
   _createClass(T, [{
     key: "thesis_number",
     value: function thesis_number(number) {
-      return "These " + number;
+      return "Frage " + number;
     }
   }, {
     key: "achieved_points_text",
@@ -86,7 +86,7 @@ function () {
   }, {
     key: "btn_make_thesis_double_weight",
     get: function get() {
-      return "These doppelt gewichten";
+      return "Frage doppelt gewichten";
     }
   }, {
     key: "btn_thesis_has_double_weight",

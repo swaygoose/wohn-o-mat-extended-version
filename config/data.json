@@ -1,63 +1,63 @@
 {
 	"theses": {
 		"0": {
-			"l": "Ich lege bei meiner Wohnart einen hohen Wert auf Ungestörtheit.",
+			"l": "Ich lege bei meiner Wohnung einen hohen Wert auf ein ruhiges Umfeld.",
 			"s": "Ungestörtheit",
 			"x": ""
 		},
 		"1": {
-			"l": "Ich finde, das Wichtigste beim Wohnen ist mein eigener Rückzugsbereich, außerdem möchte ich mein Bad nicht teilen.",
-			"s": "Bad",
+			"l": "Ich finde, eines der wichtigsten Dinge beim Wohnen ist mein eigener Rückzugsbereich.",
+			"s": "Privatsphäre",
 			"x": ""
 		},
 		"2": {
-			"l": "Ich kann mir vorstellen, wichtige Lebensbereiche, wie die Küche oder das Bad, mit anderen Menschen zu teilen.",
-			"s": "Teilen",
-			"x": ""
-		},
-		"3": {
-			"l": "Für den Alltag brauche ich nicht viel Platz. Habe ich Besuch, nutze ich mit ihm auch vorhandene Gemeinschaftsbereiche.",
+			"l": "Ich selbst brauche wenig Platz im Alltag. Habe ich jedoch Besuch, bin ich auf weitere Räume angewiesen.",
 			"s": "Gemeinschaftsräume",
 			"x": ""
 		},
-		"4": {
+		"3": {
 			"l": "Ich wünsche mir ein Zuhause, das auch Raum für gemeinschaftliche Aktivitäten bietet.",
 			"s": "Aktivitäten",
 			"x": ""
 		},
-		"5": {
+		"4": {
 			"l": "Ich habe Interesse daran, gemeinschaftliche Projekte (z. B. Garten, Werkstatt, Veranstaltungen) mitzugestalten.",
 			"s": "Gemeinschaftliche Projekte",
 			"x": ""
 		},
-		"6": {
+		"5": {
 			"l": "Ich möchte nicht mehrfach im Leben umziehen, sondern eine möglichst langfristige Lösung finden.",
 			"s": "Langfristige Lösung",
 			"x": ""
 		},
-		"7": {
-			"l": "Mir ist ein enges, soziales Umfeld sehr wichtig.",
+		"6": {
+			"l": "Ich will nicht nur für mich alleine wohnen, sondern Teil einer engen, sozialen Gemeinschaft sein. ",
 			"s": "Soziales Umfeld",
 			"x": ""
 		},
-		"8": {
+		"7": {
 			"l": "Mir ist es sehr wichtig, die Menschen, die um mich herum wohnen, zu kennen.",
 			"s": "Nachbarn",
 			"x": ""
 		},
-		"9": {
+		"8": {
 			"l": "Mir ist wichtig, einen eigenen separaten Raum zu haben, in welchem ich meine Hobbies ausüben kann.",
 			"s": "Hobbies",
 			"x": ""
 		},
-		"10": {
-			"l": "Ich bin bereit bei einem etwaigen Umzug viele meiner Möbel nicht mitzunehmen.",
+		"9": {
+			"l": "Ich bin bereit bei einem etwaigen Umzug viele meines Besitzes nicht mitzunehmen.",
 			"s": "Umzug",
+			"x": ""
+		},
+		"10": {
+			"l": "Ich kann mir vorstellen, wichtige Lebensbereiche in meiner Wohnung mit anderen Menschen zu teilen.",
+			"s": "Teilen",
 			"x": ""
 		},
 		"11": {
 			"l": "Ich habe kein Problem damit, mit anderen Menschen, die nicht meine eigene Familie sind, zusammenzuwohnen.",
-			"s": "Mitbewohner*innen",
+			"s": "Mitbewohner:innen",
 			"x": ""
 		},
 		"12": {
@@ -143,11 +143,11 @@
 				"statement": ""
 			},
 			"2": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"3": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"4": {
@@ -155,11 +155,11 @@
 				"statement": ""
 			},
 			"5": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"6": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"7": {
@@ -167,7 +167,7 @@
 				"statement": ""
 			},
 			"8": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"9": {
@@ -175,7 +175,7 @@
 				"statement": ""
 			},
 			"10": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"11": {
@@ -225,11 +225,11 @@
 				"statement": ""
 			},
 			"5": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"6": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"7": {
@@ -237,11 +237,11 @@
 				"statement": ""
 			},
 			"8": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"9": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"10": {
@@ -265,7 +265,7 @@
 				"statement": ""
 			},
 			"15": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"16": {
@@ -295,11 +295,11 @@
 				"statement": ""
 			},
 			"5": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"6": {
-				"selection": "d",
+				"selection": "a",
 				"statement": ""
 			},
 			"7": {
@@ -307,11 +307,11 @@
 				"statement": ""
 			},
 			"8": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"9": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"10": {
@@ -361,15 +361,15 @@
 				"statement": ""
 			},
 			"4": {
-				"selection": "b",
-				"statement": ""
-			},
-			"5": {
 				"selection": "c",
 				"statement": ""
 			},
-			"6": {
+			"5": {
 				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "b",
 				"statement": ""
 			},
 			"7": {
@@ -377,11 +377,11 @@
 				"statement": ""
 			},
 			"8": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"9": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"10": {
@@ -423,23 +423,23 @@
 				"statement": ""
 			},
 			"2": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"3": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"4": {
-				"selection": "a",
-				"statement": ""
-			},
-			"5": {
 				"selection": "b",
 				"statement": ""
 			},
-			"6": {
+			"5": {
 				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "b",
 				"statement": ""
 			},
 			"7": {
@@ -455,7 +455,7 @@
 				"statement": ""
 			},
 			"10": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"11": {
@@ -505,15 +505,15 @@
 				"statement": ""
 			},
 			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
 				"selection": "a",
 				"statement": ""
 			},
-			"7": {
+			"6": {
 				"selection": "c",
+				"statement": ""
+			},
+			"7": {
+				"selection": "b",
 				"statement": ""
 			},
 			"8": {
@@ -521,7 +521,7 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
@@ -563,23 +563,23 @@
 				"statement": ""
 			},
 			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
 				"selection": "a",
 				"statement": ""
 			},
-			"4": {
+			"3": {
 				"selection": "c",
 				"statement": ""
 			},
-			"5": {
+			"4": {
 				"selection": "b",
 				"statement": ""
 			},
-			"6": {
+			"5": {
 				"selection": "c",
+				"statement": ""
+			},
+			"6": {
+				"selection": "b",
 				"statement": ""
 			},
 			"7": {
@@ -587,15 +587,15 @@
 				"statement": ""
 			},
 			"8": {
-				"selection": "b",
-				"statement": ""
-			},
-			"9": {
 				"selection": "c",
 				"statement": ""
 			},
-			"10": {
+			"9": {
 				"selection": "a",
+				"statement": ""
+			},
+			"10": {
+				"selection": "c",
 				"statement": ""
 			},
 			"11": {
@@ -633,11 +633,11 @@
 				"statement": ""
 			},
 			"2": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"3": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"4": {
@@ -645,11 +645,11 @@
 				"statement": ""
 			},
 			"5": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"6": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"7": {
@@ -657,11 +657,11 @@
 				"statement": ""
 			},
 			"8": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
@@ -715,11 +715,11 @@
 				"statement": ""
 			},
 			"5": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"6": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"7": {
@@ -727,7 +727,7 @@
 				"statement": ""
 			},
 			"8": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"9": {
@@ -735,7 +735,7 @@
 				"statement": ""
 			},
 			"10": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"11": {
@@ -785,11 +785,11 @@
 				"statement": ""
 			},
 			"5": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"6": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"7": {
@@ -797,11 +797,11 @@
 				"statement": ""
 			},
 			"8": {
-				"selection": "d",
+				"selection": "a",
 				"statement": ""
 			},
 			"9": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
@@ -843,11 +843,11 @@
 				"statement": ""
 			},
 			"2": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"3": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"4": {
@@ -855,15 +855,15 @@
 				"statement": ""
 			},
 			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
 				"selection": "b",
 				"statement": ""
 			},
-			"7": {
+			"6": {
 				"selection": "c",
+				"statement": ""
+			},
+			"7": {
+				"selection": "b",
 				"statement": ""
 			},
 			"8": {
@@ -871,7 +871,7 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
