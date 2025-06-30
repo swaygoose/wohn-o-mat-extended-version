@@ -207,9 +207,9 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Wohnformen Übersicht</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <style>
     body {
       margin: 0;
@@ -306,7 +306,7 @@
       font-size: 20px;
     }
 
-    .info-table td {
+    .info-table tr {
 	  font-size: 20px;
 	  background-color: #833c2a;
 	  color: white;
@@ -322,6 +322,7 @@
     }
 
     .info-table a {
+	  padding-left: 10px;
       color: white;
       text-decoration: underline;
     }
@@ -333,6 +334,9 @@
       .info-table {
         font-size: 16px;
       }
+	  .grid {
+	    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	  }
     }
   </style>
 </head>
@@ -360,14 +364,14 @@
     <div id="Links" class="full-width">
       <div class="detail-text"><strong>Weitere Informationen zu gemeinschaftlichen Wohnprojekten:</strong></div>
       <table class="info-table">
-        <tr><td><strong>Wohnen für Hilfe:</strong></td><td><a href="https://www.hf.uni-koeln.de/33114" target="_blank">Projekt der Uni Köln</a></td></tr>
-        <tr><td><strong>Gemeinschaftswohnen:</strong></td><td><a href="https://www.bremer-heimstiftung.de/wohnen/haeuser/haus-im-viertel/" target="_blank">Haus im Viertel Bremen</a></td></tr>
-        <tr><td><strong>Plattform Gemeinschaftswohnen:</strong></td><td><a href="https://www.bring-together.de/de/plattform" target="_blank">Bring-Together</a></td></tr>
-        <tr><td><strong>Senioren-WGs:</strong></td><td><a href="https://www.seniorenwohngemeinschaften.de/" target="_blank">Seniorenwohngemeinschaften.de</a></td></tr>
-        <tr><td><strong>Gemischte Wohneinheiten:</strong></td><td><a href="https://www.mitwohnen.org/" target="_blank">Mitwohnen.org</a></td></tr>
-        <tr><td><strong>Informationshilfen:</strong></td><td><a href="https://www.wohnprojekte-portal.de/" target="_blank">Wohnprojekte-Portal</a></td></tr>
-        <tr><td><strong>Informationsportal:</strong></td><td><a href="https://www.wohnbund.de/" target="_blank">Wohnbund</a></td></tr>
-        <tr><td><strong>Vernetzungsplattform:</strong></td><td><a href="https://www.netzwerk-generationen.de/willkommen" target="_blank">Netzwerk GenerationenWohnen</a></td></tr>
+        <tr><td><strong>Wohnen für Hilfe:</strong></td><td><a href="https://www.hf.uni-koeln.de/33114" target="_blank"><strong>Projekt der Uni Köln</a></strong></td></tr>
+        <tr><td><strong>Gemeinschaftswohnen:</strong></td><td><a href="https://www.bremer-heimstiftung.de/wohnen/haeuser/haus-im-viertel/" target="_blank"><strong>Haus im Viertel Bremen</strong></a></td></tr>
+        <tr><td><strong>Plattform Gemeinschaftswohnen:</strong></td><td><a href="https://www.bring-together.de/de/plattform" target="_blank"><strong>Bring-Together</strong></a></td></tr>
+        <tr><td><strong>Senioren-WGs:</strong></td><td><a href="https://www.seniorenwohngemeinschaften.de/" target="_blank"><strong>Seniorenwohngemeinschaften.de</strong></a></td></tr>
+        <tr><td><strong>Gemischte Wohneinheiten:</strong></td><td><a href="https://www.mitwohnen.org/" target="_blank"><strong>Mitwohnen.org</strong></a></td></tr>
+        <tr><td><strong>Informationshilfen:</strong></td><td><a href="https://www.wohnprojekte-portal.de/" target="_blank"><strong>Wohnprojekte-Portal</strong></a></td></tr>
+        <tr><td><strong>Informationsportal:</strong></td><td><a href="https://www.wohnbund.de/" target="_blank"><strong>Wohnbund</strong></a></td></tr>
+        <tr><td><strong>Vernetzungsplattform:</strong></td><td><a href="https://www.netzwerk-generationen.de/willkommen" target="_blank"><strong>Netzwerk GenerationenWohnen</strong></a></td></tr>
       </table>
     </div>
   </div>
