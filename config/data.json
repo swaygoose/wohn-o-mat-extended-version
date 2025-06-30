@@ -104,8 +104,8 @@
 			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Betreutes-Wohnen' style='color: black;'>Betreutes Wohnen</a>"
 		},
 		"4": {
-			"name": "Seniorenwohnung ",
-			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Seniorenwohnung' style='color: black;'>Seniorenwohnung</a>"
+			"name": "Ambulante Betreute Senioren-WG",
+			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Seniorenwohnung' style='color: black;'>Ambulante Betreute Senioren-WG</a>"
 		},
 		"5": {
 			"name": "Barrierefreie Wohnung",
@@ -423,7 +423,7 @@
 				"statement": ""
 			},
 			"2": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"3": {
@@ -431,7 +431,7 @@
 				"statement": ""
 			},
 			"4": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"5": {
@@ -439,43 +439,43 @@
 				"statement": ""
 			},
 			"6": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"7": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"8": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"10": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"11": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"12": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"13": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"14": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"15": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"16": {
