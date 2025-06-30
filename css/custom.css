@@ -185,3 +185,14 @@ h4.result-detail-title,
 .card-header.result-detail-header small {
   font-weight: bold !important;
 }
+
+/* Klickverhalten optisch deaktivieren */
+.result-detail-header,
+.result-detail-footer {
+  cursor: default !important;
+}
+
+/* Icon in Header ausblenden */
+.result-detail-header svg {
+  display: none !important;
+}
