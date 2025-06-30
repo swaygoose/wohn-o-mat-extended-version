@@ -15,10 +15,10 @@ function () {
     this.page_title = "Wohn-o-Mat";
     this.qa_modal_title = "Fragen &amp; Antworten";
     this.qa_modal_body = '<h4>Was ist die Idee des Projektes?</h4>\
-					<p>In Deutschland herrscht ein Wohnflächenmangel und die Baubranche kann den aktuellen Fehlbedarf nicht decken. Ein Grund für diese Entwicklung ist die steigende Wohnfläche pro Kopf. Ein Grund für eine steigende Wohnfläche können sogenannte "empty-nester" Haushalte sein, bei welchen die Kinder ausgezogen sind und meistens diese Paar weiterhin in Einfamilienhäusern wohnen, dies steigert den Wohnflächenverbrauch enorm. Aufgrund von aktuell fehlenden Beratungsangeboten im Bereich des Wohnens im Alter hat eine Gruppe Studenten der Technischen Hochschule Lübeck den Wohn-o-Mat konzipiert, um die Entscheidungsfindung bei einem anstehenden Umzug in Alter zu erleichtern und die verschiedenen Wohnformen zu präsentieren und näherzubringen.</p>\
+					<p>In Deutschland herrscht ein Wohnflächenmangel und die Baubranche kann den aktuellen Fehlbedarf nicht decken. Ein Grund für diese Entwicklung ist die steigende Wohnfläche pro Kopf. Hierfür können z.B. sogenannte „empty-nester“-Haushalte verantwortlich sein, bei denen Eltern nach dem Auszug der Kinder in ihrem Einfamilienhaus wohnen bleiben und nun deutlich mehr Fläche als zuvor zur Verfügung haben. Aufgrund von aktuell fehlenden Beratungsangeboten im Bereich des Wohnens im Alter, die über Pflegeangebote im eigenen Haus oder Umzug in ein Pflegeheim hinausgehen, hat eine Gruppe Studierende der Technischen Hochschule Lübeck den Wohn-o-Mat konzipiert. Er soll dabei helfen, die zur eigenen Persönlichkeit passende Wohnform zu finden und so eine Entscheidungsfindung zu einem Umzug im Alter zu erleichtern.</p>\
 \
-					<h4>Wie wurden die Thesen erarbeitet?</h4>\
-					<p>Durch die Auswertung von qualitativen Interviews wurde ein Pool an Bedürfnissen und Forderungen von bereits umgezogenen Menschen erarbeitet, aus welchem dann die Fragen und Thesen entworfen wurden.</p>\
+					<h4>Wie wurden die Fragen erarbeitet?</h4>\
+					<p>Durch die Auswertung von qualitativen Interviews wurde ein Pool an Bedürfnissen und Forderungen von bereits umgezogenen Menschen erarbeitet, aus welchem dann die Fragen entworfen wurden.</p>\
 \
 					<h4>Wie sind die Profile der Wohnformen entstanden?</h4>\
 					<p>Die Profile der Wohnformen wurden durch die Analyse von bestehenden Projekten in Deutschland gesammelt und mit Erfahrungen aus den Interviews untermalt. Sie sollen die Wohnformen möglichst real darstellen und wurden zudem nach den aktuellen Forderungen der Disziplin der Stadtplanung, wie geringe Flächenverbräuche oder symbiotische Organisationsformen bewertet.</p>\
@@ -28,11 +28,10 @@ function () {
 					<ul>\
 						<li>Stimmt deine Antwort mit der Eigenschaft der Wohnform überein, werden dieser 2 Punkte gutgeschrieben;</li>\
 						<li>Weicht deine Antwort mit der Eigenschaft der Wohnform leicht ab (Zustimmung/Neutral oder Neutral/Ablehnung), werden dieser 1 Punkt gutgeschrieben;</li>\
-						<li>Sind deine Antwort mit der Eigenschaft der Wohnform entgegengesetzt oder ist die Eigenschaft der Wohnform in diesem Falle unklar, dann werde keine Punkte gutgeschrieben.</li>\
+						<li>Ist deine Antwort entgegengesetzt zu der bei der Wohnform hinterlegten oder wurde dieser Wohnform diese Eigenschaft nicht zugeordnet (weil sie hier nicht vorkommt), werden keine Punkte gutgeschrieben.</li>\
+						<li>Eine These, die du nicht beantwortest, wird nicht gewertet. Die erreichbare Höchstpunktzahl wird dadurch geringer.</li>\
+						<li>Ist dir zu einer Frage deine Antwort besonders wichtig, kannst du sie doppelt werten lassen. Dadurch wird ihr die doppelte Punktzahl entsprechend der Übereinstimmung oder Divergenz – also 0, 2 oder 4 Punkte – zur bei der Wohnform hinterlegten Eigenschaft gutgeschrieben.</li>\
 					</ul>\
-					<p>Eine These, die du übersprungen hast, wird nicht gewertet. Die erreichbare Höchstpunktzahl wird dadurch geringer.</p>\
-					<p>Eine These, die doppelt gewichtet werden soll, wird doppelt gewichtet, das heißt, für sie wird die doppelte Punktzahl\
-						gutgeschrieben (0/2/4). Dadurch können insgesamt mehr Punkte erreicht werden.</p>\
 \
 					<h4>Werden meine Antworten gespeichert?</h4>\
 					<p>Nein. Alles läuft vollständig in deinem Browser ab.</p>\
@@ -40,7 +39,7 @@ function () {
 					<h4>Ich habe einen inhaltlichen Fehler gefunden!</h4>\
 					<p>Gib uns gern Bescheid, wir sehen uns das an. Wer „wir“ sind, steht oben auf dieser Seite.</p>\
 \
-					<h4>Wer hat den Mahlowat programmiert?</h4>\
+					<h4>Die Ursprungsbasis des Wohn-o-Mats ist der Mahlowat von hszemi! Das Ursprungsprojekt ist hier zu finden:</h4>\
 					<p>Das steht\
 						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist übrigens freie Software!</p>\
 \
@@ -50,16 +49,16 @@ function () {
     this.btn_qa_modal_close = "Schließen";
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
-    this.start_subtitle = "Finde heraus welche Wohnform zu dir passt!";
+    this.start_subtitle = "Finde heraus, welche Wohnform zu dir passt!";
     this.start_explanatory_text = "<p></p>\
 					<p></p>";
     this.btn_start = "Wohn-o-Mat starten!";
     this.btn_start_show_qa = "Fragen &amp; Antworten";
     this.btn_toggle_thesis_more_text = "Erläuterung";
     this.btn_important = "These doppelt gewichten";
-    this.btn_yes_text = "Zustimmung";
-    this.btn_neutral_text = "Neutral";
-    this.btn_no_text = "Ablehnung";
+    this.btn_yes_text = "Ja";
+    this.btn_neutral_text = "Egal";
+    this.btn_no_text = "Nein";
     this.btn_skip_text = "Keine Antwort";
     this.btn_mahlowat_show_start = "Zurück zur Startseite";
     this.btn_mahlowat_show_qa = "Fragen &amp; Antworten";
