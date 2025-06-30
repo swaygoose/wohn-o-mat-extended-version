@@ -327,6 +327,27 @@
       color: white;
       text-decoration: underline;
     }
+	
+	.info-entry {
+	  background-color: #833c2a;
+	  color: white;
+	  border-radius: 6px;
+	  padding: 10px 16px;
+	  margin-bottom: 10px;
+	}
+
+	.info-label {
+	  font-weight: bold;
+	  font-size: 18px;
+	  margin-bottom: 4px;
+	}
+
+	.info-link a {
+	  color: white;
+	  text-decoration: underline;
+	  font-size: 16px;
+	}
+
 
     @media (max-width: 600px) {
       .detail-text {
@@ -338,6 +359,14 @@
 	  .grid {
 	    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	  }
+	  .info-label {
+		font-size: 16px;
+	  }
+
+	  .info-link a {
+		font-size: 14px;
+	  }
+	}
     }
   </style>
 </head>
@@ -363,18 +392,48 @@
 
     <!-- Info-Links -->
     <div id="Links" class="full-width">
-      <div class="detail-text"><strong>Weitere Informationen zu gemeinschaftlichen Wohnprojekten:</strong></div>
-      <table class="info-table">
-        <tr><td><strong>Wohnen für Hilfe:</strong></td><td><a href="https://www.hf.uni-koeln.de/33114" target="_blank"><strong>Projekt der Uni Köln</a></strong></td></tr>
-        <tr><td><strong>Gemeinschaftswohnen:</strong></td><td><a href="https://www.bremer-heimstiftung.de/wohnen/haeuser/haus-im-viertel/" target="_blank"><strong>Haus im Viertel Bremen</strong></a></td></tr>
-        <tr><td><strong>Plattform Gemeinschaftswohnen:</strong></td><td><a href="https://www.bring-together.de/de/plattform" target="_blank"><strong>Bring-Together</strong></a></td></tr>
-        <tr><td><strong>Senioren-WGs:</strong></td><td><a href="https://www.seniorenwohngemeinschaften.de/" target="_blank"><strong>Seniorenwohngemeinschaften.de</strong></a></td></tr>
-        <tr><td><strong>Gemischte Wohneinheiten:</strong></td><td><a href="https://www.mitwohnen.org/" target="_blank"><strong>Mitwohnen.org</strong></a></td></tr>
-        <tr><td><strong>Informationshilfen:</strong></td><td><a href="https://www.wohnprojekte-portal.de/" target="_blank"><strong>Wohnprojekte-Portal</strong></a></td></tr>
-        <tr><td><strong>Informationsportal:</strong></td><td><a href="https://www.wohnbund.de/" target="_blank"><strong>Wohnbund</strong></a></td></tr>
-        <tr><td><strong>Vernetzungsplattform:</strong></td><td><a href="https://www.netzwerk-generationen.de/willkommen" target="_blank"><strong>Netzwerk GenerationenWohnen</strong></a></td></tr>
-      </table>
-    </div>
+	  <div class="detail-text"><strong>Weitere Informationen zu gemeinschaftlichen Wohnprojekten:</strong></div>
+
+	  <div class="info-entry">
+		<div class="info-label">Wohnen für Hilfe:</div>
+		<div class="info-link"><a href="https://www.hf.uni-koeln.de/33114" target="_blank">Projekt der Uni Köln</a></div>
+	  </div>
+
+	  <div class="info-entry">
+		<div class="info-label">Gemeinschaftswohnen:</div>
+		<div class="info-link"><a href="https://www.bremer-heimstiftung.de/wohnen/haeuser/haus-im-viertel/" target="_blank">Haus im Viertel Bremen</a></div>
+	  </div>
+
+	  <div class="info-entry">
+		<div class="info-label">Plattform Gemeinschaftswohnen:</div>
+		<div class="info-link"><a href="https://www.bring-together.de/de/plattform" target="_blank">Bring-Together</a></div>
+	  </div>
+
+	  <div class="info-entry">
+		<div class="info-label">Senioren-WGs:</div>
+		<div class="info-link"><a href="https://www.seniorenwohngemeinschaften.de/" target="_blank">Seniorenwohngemeinschaften.de</a></div>
+	  </div>
+
+	  <div class="info-entry">
+		<div class="info-label">Gemischte Wohneinheiten:</div>
+		<div class="info-link"><a href="https://www.mitwohnen.org/" target="_blank">Mitwohnen.org</a></div>
+	  </div>
+
+	  <div class="info-entry">
+		<div class="info-label">Informationshilfen:</div>
+		<div class="info-link"><a href="https://www.wohnprojekte-portal.de/" target="_blank">Wohnprojekte-Portal</a></div>
+	  </div>
+
+	  <div class="info-entry">
+		<div class="info-label">Informationsportal:</div>
+		<div class="info-link"><a href="https://www.wohnbund.de/" target="_blank">Wohnbund</a></div>
+	  </div>
+
+	  <div class="info-entry">
+		<div class="info-label">Vernetzungsplattform:</div>
+		<div class="info-link"><a href="https://www.netzwerk-generationen.de/willkommen" target="_blank">Netzwerk GenerationenWohnen</a></div>
+	  </div>
+	</div>
   </div>
 
 </body>
