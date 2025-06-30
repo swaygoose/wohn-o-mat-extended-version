@@ -35,6 +35,11 @@
       height: auto;
       display: block;
     }
+	
+	.item.full-width {
+	  background-color: #aa4e36;
+	  color: white;
+	}
 
     .full-width {
       grid-column: span 2;
@@ -78,8 +83,17 @@
     }
 
     .detail-text {
-      font-size: 20px;
-    }
+	  font-size: 20px;
+	  background-color: #833c2a;
+	  color: white;
+	  font-weight: bold;
+	  border: none;
+	  border-radius: 6px;
+	  padding: 10px 16px; /* gleichmäßig: oben/unten 10px, links/rechts 16px */
+	  display: block;
+	  text-decoration: none;
+	  margin-bottom: 10px; /* optional für Abstand zu <hr> */
+	}
   </style>
 </head>
 
@@ -122,44 +136,43 @@
     </div>
 
     <div id="Links" class="item full-width">
-      <p class="detail-text" style="padding-left: 10px;">
-        <strong>Weitere Informationen zu gemeinschaftlichen Wohnprojekten und verschiedenen Formen des Zusammenwohnens gibt es hier:</strong><br />
-		<p></p>
-		<table style="width: 100%; border-collapse: collapse; font-size: 20px;">
+		<div class="detail-text" style="padding-left: 10px;">
+		  <strong>Weitere Informationen zu gemeinschaftlichen Wohnprojekten und verschiedenen Formen des Zusammenwohnens gibt es hier:</strong>
+		 </div> 
+		<table style="width: 100%; border-collapse: collapse; font-size: 20px; padding-left: 10px;" class="detail-text">
 		  <tr>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 10px;"><strong>Wohnen für Hilfe:</strong></td>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 20px;"><a href="https://www.hf.uni-koeln.de/33114" style="color: black;" target="_blank">Projekt der Uni Köln</a></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px;"><strong>Wohnen für Hilfe:</strong></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 120px;"><a href="https://www.hf.uni-koeln.de/33114" style="color: white;" target="_blank">Projekt der Uni Köln</a></td>
 		  </tr>
 		  <tr>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 10px;"><strong>Gemeinschaftswohnen:</strong></td>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 20px;"><a href="https://www.bremer-heimstiftung.de/wohnen/haeuser/haus-im-viertel/" style="color: black;" target="_blank">Haus im Viertel in Bremen</a></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px;"><strong>Gemeinschaftswohnen:</strong></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 120px;"><a href="https://www.bremer-heimstiftung.de/wohnen/haeuser/haus-im-viertel/" style="color: white;" target="_blank">Haus im Viertel in Bremen</a></td>
 		  </tr>
 		  <tr>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 10px;"><strong>Vermittlungsplattform für Gemeinschaftswohnen:</strong></td>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 20px;"><a href="https://www.bring-together.de/de/plattform" style="color: black;" target="_blank">Bring-Together</a></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px;"><strong>Vermittlungsplattform für Gemeinschaftswohnen:</strong></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 120px;"><a href="https://www.bring-together.de/de/plattform" style="color: white;" target="_blank">Bring-Together</a></td>
 		  </tr>
 		  <tr>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 10px;"><strong>Vermittlungsplattform für Seniorenwohngemeinschaften:</strong></td>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 20px;"><a href="https://www.seniorenwohngemeinschaften.de/" style="color: black;" target="_blank">Seniorenwohngemeinschaften.de</a></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px;"><strong>Vermittlungsplattform für Seniorenwohngemeinschaften:</strong></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 120px;"><a href="https://www.seniorenwohngemeinschaften.de/" style="color: white;" target="_blank">Seniorenwohngemeinschaften.de</a></td>
 		  </tr>
 		  <tr>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 10px;"><strong>Vermittlungsplattform für Gemischte Wohneinheiten:</strong></td>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 20px;"><a href="https://www.mitwohnen.org/" style="color: black;" target="_blank">Mitwohnen.org</a></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px;"><strong>Vermittlungsplattform für Gemischte Wohneinheiten:</strong></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 120px;"><a href="https://www.mitwohnen.org/" style="color: white;" target="_blank">Mitwohnen.org</a></td>
 		  </tr>
 		  <tr>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 10px;"><strong>Informationshilfen: </strong></td>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 20px;"><a href="https://www.wohnprojekte-portal.de/" style="color: black;" target="_blank">Gemeinschaftliches Wohnen</a></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px;"><strong>Informationshilfen: </strong></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 120px;"><a href="https://www.wohnprojekte-portal.de/" style="color: white;" target="_blank">Gemeinschaftliches Wohnen</a></td>
 		  </tr>
 		  <tr>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 10px;"><strong>Informationsportal: </strong></td>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 20px;"><a href="https://www.wohnbund.de/" style="color: black;" target="_blank">Verband zur Förderung wohnpolitischer Initiativen</a></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px;"><strong>Informationsportal: </strong></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 120px;"><a href="https://www.wohnbund.de/" style="color: white;" target="_blank">Verband zur Förderung wohnpolitischer Initiativen</a></td>
 		  </tr>
 		  <tr>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 10px;"><strong>Vernetzungsplattform: </strong></td>
-			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 20px;"><a href="https://www.netzwerk-generationen.de/willkommen" style="color: black;" target="_blank">Netzwerkagentur GenerationenWohnen</a></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px;"><strong>Vernetzungsplattform: </strong></td>
+			<td style="width: 50%; text-align: left; padding-bottom: 10px; padding-left: 120px;"><a href="https://www.netzwerk-generationen.de/willkommen" style="color: white;" target="_blank">Netzwerkagentur GenerationenWohnen</a></td>
 		  </tr>
 		</table>
-	  </p>
     </div>
   </div>
 </body>
