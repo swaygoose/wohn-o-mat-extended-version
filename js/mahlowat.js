@@ -398,8 +398,8 @@ function calculatePairPoints(self, list) {
 	}
 }
 
-/*function setResultDetailCallbacks() {
-	$('.result-detail-header').click(function () {
+function setResultDetailCallbacks() {
+	/*$('.result-detail-header').click(function () {
 		$(this).next('.result-details').slideToggle();
 	});
 	$('.result-detail-footer').click(function () {
