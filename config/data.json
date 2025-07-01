@@ -11,7 +11,7 @@
 			"x": ""
 		},
 		"2": {
-			"l": "Ich selbst brauche wenig Platz im Alltag. Habe ich jedoch Besuch, bin ich auf weitere Räume angewiesen.",
+			"l": "Ich selbst brauche wenig Platz im Alltag. Habe ich jedoch Besuch, möchte ich die Möglichkeit haben, weitere Räume zu nutzen.",
 			"s": "Gemeinschaftsräume",
 			"x": ""
 		},
@@ -36,7 +36,7 @@
 			"x": ""
 		},
 		"7": {
-			"l": "Mir ist es sehr wichtig, die Menschen, die um mich herum wohnen, zu kennen.",
+			"l": "Mir ist es wichtig, die Menschen, die um mich herum wohnen, zu kennen.",
 			"s": "Nachbarn",
 			"x": ""
 		},
@@ -46,22 +46,22 @@
 			"x": ""
 		},
 		"9": {
-			"l": "Ich bin bereit bei einem etwaigen Umzug viele meines Besitzes nicht mitzunehmen.",
+			"l": "Ich bin bereit bei einem etwaigen Umzug vieles von meinem Besitz nicht mitzunehmen.",
 			"s": "Umzug",
 			"x": ""
 		},
 		"10": {
-			"l": "Ich kann mir vorstellen, wichtige Lebensbereiche in meiner Wohnung mit anderen Menschen zu teilen.",
+			"l": "Ich kann mir vorstellen, wichtige Lebensbereiche wie das Badezimmer (aber nicht mein Schlafzimmer) in meiner Wohnung mit anderen Menschen zu teilen.",
 			"s": "Teilen",
 			"x": ""
 		},
 		"11": {
-			"l": "Ich habe kein Problem damit, mit anderen Menschen, die nicht meine eigene Familie sind, zusammenzuwohnen.",
+			"l": "Ich würde auch mit Menschen zusammen wohnen, die nicht meine eigene Familie sind.",
 			"s": "Mitbewohner:innen",
 			"x": ""
 		},
 		"12": {
-			"l": "Ich bin der Meinung, dass das Leben in Gemeinschaft eine große Bereicherung für mich ist.",
+			"l": "Ich bin der Meinung, dass das Leben in Gemeinschaft eine große Bereicherung für mich ist und darum in einer solchen leben.",
 			"s": "Gemeinschaftswohnen",
 			"x": ""
 		},
@@ -71,7 +71,7 @@
 			"x": ""
 		},
 		"14": {
-			"l": "Ich habe kein Problem damit, mir z.B. Waschmaschine oder Auto mit anderen zu teilen.",
+			"l": "Ich habe ein Problem damit, mir z.B. Waschmaschine oder Auto mit anderen zu teilen.",
 			"s": "Teilen II",
 			"x": ""
 		},
@@ -88,7 +88,7 @@
 	},
 	"lists": {
 		"0": {
-			"name": "Mehrgenerationenwohnen",
+			"name": "Mehrgenerationswohnen",
 			"name_x": "<a href='https://swaygoose.github.io/wohn-o-mat-extended-version/details.html#Mehrgenerationenwohnen' style='color: black;'>Mehrgenerationenwohnen</a>"
 		},
 		"1": {
@@ -191,7 +191,7 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"15": {
@@ -261,7 +261,7 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"15": {
@@ -331,7 +331,7 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"15": {
@@ -401,7 +401,7 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"15": {
@@ -541,7 +541,7 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"15": {
@@ -611,7 +611,7 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"15": {
@@ -751,7 +751,7 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"15": {
@@ -821,7 +821,7 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"15": {
@@ -891,7 +891,7 @@
 				"statement": ""
 			},
 			"14": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"15": {
